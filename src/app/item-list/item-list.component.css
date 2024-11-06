@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    /* background: #efd0d0; */
+    padding: 5%;
+}
+.heading{
+
+    position: absolute;
+    left: 35rem;
+}
+.searchbox{
+    position: absolute;
+    top: 10px;
+    left: 29rem;
+}
+.searchButton{
+    position: absolute;
+    top: 10px;
+    left: 39.4rem;
+}
+.itemBox{
+    background: #fffdfd;
+    border: solid rgb(52, 5, 5);
+    position: absolute;
+    /* height: 100%; */
+    top: 150px;
+    left: 20rem;
+}
+.items{
+    padding: 10px;
+}

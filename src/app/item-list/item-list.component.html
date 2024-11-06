@@ -1,0 +1,16 @@
+<div class="container">
+    <h1 class="heading">Item List</h1>
+    
+    <input type="text" [(ngModel)]="searchTerm" (input)="filterItems()" placeholder="Search items..." class="searchbox" />
+  
+   <button (click)="toggleSort()" class="searchButton">
+     Sort by Title: {{ sortAscending ? 'Ascending' : 'Descending' }}
+   </button>
+  
+   <ol class="itemBox">
+     <li *ngFor="let item of filteredItems" class="items">
+       {{ item.title }}
+     </li>
+   </ol>
+  </div>
+  
